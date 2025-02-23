@@ -1,0 +1,120 @@
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://source.unsplash.com/1920x1080/?flowers,nature') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(129, 205, 198, 0.9);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background: #5aa6a1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(90, 166, 161, 0.9);
+    padding: 10px;
+}
+
+nav a {
+    font-family: Arial Black, serif;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.featured-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(90, 166, 161, 0.9);
+    color: white;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}
