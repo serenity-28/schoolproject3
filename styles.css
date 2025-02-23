@@ -4,16 +4,20 @@ body {
     padding: 0;
     background: url('https://source.unsplash.com/1920x1080/?flowers,nature') no-repeat center center fixed;
     background-size: cover;
-    color: #333;
+    color: #4F4F4F; /* Soft gray-beige text color */
 }
 
 header {
-    background: linear-gradient(to right, rgba(129, 205, 198, 0.9), rgba(90, 166, 161, 0.9));
-    padding: 20px;
+    background: linear-gradient(to right, rgba(224, 200, 160, 0.9), rgba(194, 172, 133, 0.9)),
+                url('https://source.unsplash.com/1920x600/?journalism,freedom');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 40px 20px;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #3E3E3E; /* Darker beige text */
     position: relative;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-bottom: 4px solid rgba(255, 255, 255, 0.5);
@@ -31,24 +35,10 @@ header::after {
     border-radius: 2px;
 }
 
-}
-
-.search-bar {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    width: 50%;
-}
-
 .search-bar input {
     padding: 8px;
     font-size: 16px;
-    border: none;
+    border: 1px solid #D1B39E; /* Beige border */
     border-radius: 5px;
     width: 70%;
 }
@@ -56,7 +46,7 @@ header::after {
 .search-bar button {
     padding: 8px;
     border: none;
-    background: #5aa6a1;
+    background: #C0A070; /* Soft yellow-beige */
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -66,13 +56,13 @@ header::after {
 nav {
     display: flex;
     justify-content: center;
-    background: rgba(90, 166, 161, 0.9);
+    background: rgba(191, 160, 111, 0.9); /* Warm beige */
     padding: 10px;
 }
 
 nav a {
     font-family: Arial Black, serif;
-    color: white;
+    color: #F1F1F1; /* Soft light beige */
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -82,7 +72,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    color: #f4f4f4;
+    color: #F9E4C5; /* Light beige highlight */
 }
 
 .container {
@@ -105,14 +95,14 @@ nav a:hover {
     flex: 1;
     padding: 20px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(248, 244, 225, 0.9); /* Light beige background */
     font-size: 14px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content h2 {
     font-size: 30px;
-    color: #333;
+    color: #3E3E3E; /* Dark beige */
     margin-bottom: 10px;
 }
 
@@ -120,23 +110,25 @@ nav a:hover {
     line-height: 1.8;
     margin-bottom: 15px;
     text-align: justify;
+    color: #4F4F4F; /* Soft gray-beige text */
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background: rgba(90, 166, 161, 0.9);
+    background: rgba(191, 160, 111, 0.9); /* Same warm beige tone */
     color: white;
     margin-top: 20px;
 }
 
 .icon {
     margin-right: 10px;
- }
-        .footer-extra {
-            text-align: center;
-            padding: 20px;
-            background: rgba(90, 166, 161, 0.9);
-            color: white;
-            margin-top: 20px;
-        }
+}
+
+.footer-extra {
+    text-align: center;
+    padding: 20px;
+    background: rgba(191, 160, 111, 0.9);
+    color: white;
+    margin-top: 20px;
+}
